@@ -1,0 +1,16 @@
+---
+title: "Mini Project 2"
+author: "Irene Xu"
+date: "3/6/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(babynames)
+head(babynames)
+```
